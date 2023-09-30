@@ -26,7 +26,7 @@ ursusfeline07@gmail.com
 
 方法二：申请加入此GitHub团队，修改仓库内容
 
-方法三：[联系管理员](https://github.com/lpsez2025class2/lpsez2025class2.github.io/blob/main/README.md#%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98)
+方法三：看不懂以上方式，请[联系管理员](https://github.com/lpsez2025class2/lpsez2025class2.github.io/blob/main/README.md#%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98)
 
 2. 修改[source目录](https://github.com/lpsez2025class2/lpsez2025class2.github.io/tree/main/source/)下的文章，格式为markdown文件，开头按照如下格式注明文章名称，日期和标签
 ```
@@ -41,4 +41,4 @@ tags: '标签'
 
 3. 提交更改，方法取决于第一步
 
->注意：此仓库使用yarn3管理node模块，请勿使用npm
+>注意：此仓库使用yarn3管理node模块，请勿使用npm，看不懂请忽略或询问管理员

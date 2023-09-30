@@ -18,10 +18,25 @@ ellistwooten8269@outlook.com
 
 ursusfeline07@gmail.com
 
-## 路线图
+## 改进此网站
 
- - [x] 测试页面
+1. 获取修改权限
 
- - [x] 使用主题HexoNexT改善网页外观：[https://theme-next.js.org/](https://theme-next.js.org/)
+方法一：Fork此仓库，修改完成后提交Pull Requests
 
- - [ ] 编写文章
+方法二：申请加入此GitHub团队，修改仓库内容
+
+方法三：[联系管理员](https://github.com/lpsez2025class2/lpsez2025class2.github.io/main/README.md#%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98)
+
+2. 修改[source目录](https://github.com/lpsez2025class2/lpsez2025class2.github.io/tree/main/source/)下的文章，格式为markdown文件，开头按照如下格式注明文章名称，日期和标签
+```
+---
+title: 文章名称
+date: 2023-09-30 00:00:00
+tags: '标签'
+---
+
+正文
+```
+
+3. 提交更改，方法取决于第一步

@@ -1218,7 +1218,7 @@ __metadata:
     hexo-server: ^3.0.0
     hexo-theme-landscape: ^1.0.0
     hexo-theme-next: ^8.18.1
-    yarn: ^1.22.19
+    yarn: latest
   languageName: unknown
   linkType: soft
 
@@ -2882,7 +2882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn@npm:^1.22.19":
+"yarn@npm:latest":
   version: 1.22.19
   resolution: "yarn@npm:1.22.19"
   bin:

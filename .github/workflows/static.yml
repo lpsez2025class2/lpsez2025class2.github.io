@@ -42,6 +42,7 @@ jobs:
         cache: 'npm'
     - run: npx yarn install
     - run: npx yarn hexo g -f
+    - run: ls -la
   # Single deploy job since we're just deploying
     - name: Checkout
       uses: actions/checkout@v3

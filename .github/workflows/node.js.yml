@@ -29,3 +29,7 @@ jobs:
     - run: npx yarn install
     - run: npx yarn hexo g -f
     - run: git push
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: docs # The folder the action should deploy.

@@ -26,6 +26,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next-theme/utils@npm:^1.1.0":
+  version: 1.3.0
+  resolution: "@next-theme/utils@npm:1.3.0"
+  dependencies:
+    hexo-util: 2.5.0
+    js-yaml: 4.1.0
+  checksum: 8bbd19520809acca043608558791d35f09a73aec6347bcd9b3dcb0c070d2471587bec615502e84464ed72f3fb1467bec55e7e107638a154a5bfc95cbe67fa007
+  languageName: node
+  linkType: hard
+
 "@npmcli/fs@npm:^3.1.0":
   version: 3.1.0
   resolution: "@npmcli/fs@npm:3.1.0"
@@ -328,6 +338,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cargo-cp-artifact@npm:^0.1":
+  version: 0.1.8
+  resolution: "cargo-cp-artifact@npm:0.1.8"
+  bin:
+    cargo-cp-artifact: bin/cargo-cp-artifact.js
+  checksum: 06e774dbf032c79ef9d84d08dc6dc1e8842008b784098faa53f9e320acb930ac3898296e4af1d33cb11557bed9b8324c118d20ad6492ea7291cf92da641b6cb1
+  languageName: node
+  linkType: hard
+
 "chalk@npm:^4.0.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
@@ -409,6 +428,13 @@ __metadata:
   version: 1.2.9
   resolution: "command-exists@npm:1.2.9"
   checksum: 729ae3d88a2058c93c58840f30341b7f82688a573019535d198b57a4d8cb0135ced0ad7f52b591e5b28a90feb2c675080ce916e56254a0f7c15cb2395277cac3
+  languageName: node
+  linkType: hard
+
+"commander@npm:9.2.0":
+  version: 9.2.0
+  resolution: "commander@npm:9.2.0"
+  checksum: 7c82e4cd969712aa6d7c055b8351807a7230f9f31ef7ec7881e11a1147511de85adf5d6ccfd200240a118eecf693b220caf6865b8efbcea558a70d35aa9ed711
   languageName: node
   linkType: hard
 
@@ -629,7 +655,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domhandler@npm:^4.2.0, domhandler@npm:^4.2.2":
+"domhandler@npm:^3.0.0":
+  version: 3.3.0
+  resolution: "domhandler@npm:3.3.0"
+  dependencies:
+    domelementtype: ^2.0.1
+  checksum: 850e5e9fee7834ab4314811e18bc1f4294d7eafbf6a79ad03cbe50cf964108935c97257ac248944d72a9312b4a18dfa8323e857d23278964dc83b1f124467fa3
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:^4.0.0, domhandler@npm:^4.2.0, domhandler@npm:^4.2.2":
   version: 4.3.1
   resolution: "domhandler@npm:4.3.1"
   dependencies:
@@ -654,7 +689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^2.8.0":
+"domutils@npm:^2.0.0, domutils@npm:^2.5.2, domutils@npm:^2.8.0":
   version: 2.8.0
   resolution: "domutils@npm:2.8.0"
   dependencies:
@@ -788,6 +823,13 @@ __metadata:
     escodegen: bin/escodegen.js
     esgenerate: bin/esgenerate.js
   checksum: 096696407e161305cd05aebb95134ad176708bc5cb13d0dcc89a5fcbb959b8ed757e7f2591a5f8036f8f4952d4a724de0df14cd419e29212729fa6df5ce16bf6
+  languageName: node
+  linkType: hard
+
+"esm@npm:^3.2.25":
+  version: 3.2.25
+  resolution: "esm@npm:3.2.25"
+  checksum: 978aabe2de83541c105605a6d60a26ed8e627ef6bb0a7605fe15a95bbdea6b8348bd045255cb22219c054dd09a81a94823df00843d9e97f42419c92015ce3a64
   languageName: node
   linkType: hard
 
@@ -1052,6 +1094,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hexo-filter-mathjax@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "hexo-filter-mathjax@npm:0.9.0"
+  dependencies:
+    mathjax-full: 3.2.2
+  checksum: ab74c05b7173e92ce28638e72c9772b016ee8cb5871ba7448091d6524374b0da7a7ce73e7f74509f24f7367def7678775c077ce30d9d61b977f3fd5c6d4500b7
+  languageName: node
+  linkType: hard
+
 "hexo-front-matter@npm:^3.0.0":
   version: 3.0.0
   resolution: "hexo-front-matter@npm:3.0.0"
@@ -1112,6 +1163,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hexo-generator-searchdb@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "hexo-generator-searchdb@npm:1.4.1"
+  dependencies:
+    nunjucks: ^3.2.2
+  checksum: d5c821f02f6124165a6e6a87eb5e43f3d511def5e8479023582878842d0f66f4bbb493647c5254c6337b8472b4841eb54b94297cea691f49728c6bb2e3464630
+  languageName: node
+  linkType: hard
+
 "hexo-generator-tag@npm:^2.0.0":
   version: 2.0.0
   resolution: "hexo-generator-tag@npm:2.0.0"
@@ -1145,6 +1205,15 @@ __metadata:
   dependencies:
     picocolors: ^1.0.0
   checksum: b9369f37bc9470b3581edaa014c56f9a32b876ed1469d80fe9cb55316acfa9e7f0cfe13bff38c7c629d17d29cfee690d7fd54a176b6ed8e3a728f3cc104522b6
+  languageName: node
+  linkType: hard
+
+"hexo-next-fireworks@github:next-theme/hexo-next-fireworks":
+  version: 1.0.2
+  resolution: "hexo-next-fireworks@https://github.com/next-theme/hexo-next-fireworks.git#commit=c2f98bdd41461084e8bf5d0190f6a6a9fdee99eb"
+  dependencies:
+    "@next-theme/utils": ^1.1.0
+  checksum: a3628dc7113d16b976ef5b9aac50bde768dca94beb7fc68f4d468242966c471c3695e758704cde7f5b997189e72e024e0020d3688bb4b6901e3124d28de805ab
   languageName: node
   linkType: hard
 
@@ -1208,19 +1277,33 @@ __metadata:
   dependencies:
     hexo: ^6.3.0
     hexo-cli: ^4.3.1
+    hexo-filter-mathjax: ^0.9.0
     hexo-generator-archive: ^2.0.0
     hexo-generator-category: ^2.0.0
     hexo-generator-index: ^3.0.0
+    hexo-generator-searchdb: ^1.4.1
     hexo-generator-tag: ^2.0.0
+    hexo-next-fireworks: "github:next-theme/hexo-next-fireworks"
     hexo-renderer-ejs: ^2.0.0
     hexo-renderer-marked: ^6.0.0
     hexo-renderer-stylus: ^3.0.0
     hexo-server: ^3.0.0
+    hexo-symbols-count-time: ^0.7.1
     hexo-theme-landscape: ^1.0.0
     hexo-theme-next: ^8.18.1
+    hexo-word-counter: ^0.1.0
     yarn: latest
   languageName: unknown
   linkType: soft
+
+"hexo-symbols-count-time@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "hexo-symbols-count-time@npm:0.7.1"
+  dependencies:
+    hexo-util: 1.9.0
+  checksum: 5bf06ab6b52d4d89875febb27620509f9e59803fe6c9035736291eb93f3c498e337946707dcc2ce3308180ba87b33eae6ecdda5cf19ca9a76bc0754404dd9149
+  languageName: node
+  linkType: hard
 
 "hexo-theme-landscape@npm:^1.0.0":
   version: 1.0.0
@@ -1236,7 +1319,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-util@npm:^2.0.0, hexo-util@npm:^2.5.0, hexo-util@npm:^2.7.0":
+"hexo-util@npm:1.9.0":
+  version: 1.9.0
+  resolution: "hexo-util@npm:1.9.0"
+  dependencies:
+    bluebird: ^3.5.2
+    camel-case: ^4.0.0
+    cross-spawn: ^7.0.0
+    deepmerge: ^4.2.2
+    highlight.js: ^9.13.1
+    htmlparser2: ^4.0.0
+    prismjs: ^1.17.1
+    punycode.js: ^2.1.0
+    strip-indent: ^3.0.0
+    striptags: ^3.1.1
+  checksum: a863953c5c98e0794cc4fbdd7edd9b377af043e70302f6e1fdb25e3a96ad248af47695e7f7a2c1f1b230e3a069a9d09bb7b1d5e66b1437d6599e4cd8a922426e
+  languageName: node
+  linkType: hard
+
+"hexo-util@npm:2.5.0":
+  version: 2.5.0
+  resolution: "hexo-util@npm:2.5.0"
+  dependencies:
+    bluebird: ^3.5.2
+    camel-case: ^4.0.0
+    cross-spawn: ^7.0.0
+    deepmerge: ^4.2.2
+    highlight.js: ^10.7.1
+    htmlparser2: ^6.0.0
+    prismjs: ^1.17.1
+    strip-indent: ^3.0.0
+  checksum: 524319ed06d95a34b0ccfe6ab147c16724c9dff259afe8a24524c657e8df3de2e9413b1edcd6e717bfdbc00149ea8944fa7f1e4b1a2b0dda042a91e32ac406fe
+  languageName: node
+  linkType: hard
+
+"hexo-util@npm:2.7.0, hexo-util@npm:^2.0.0, hexo-util@npm:^2.5.0, hexo-util@npm:^2.7.0":
   version: 2.7.0
   resolution: "hexo-util@npm:2.7.0"
   dependencies:
@@ -1264,6 +1381,16 @@ __metadata:
     prismjs: ^1.29.0
     strip-indent: ^3.0.0
   checksum: a077b78bea886047ffd4cd311c09ed1b4eef5feb8a89103ca554b0ae7d7e35d26c3d7de3ed41ad934de5caadeeb01903573f904e627fef00abb8a2886eaeff3f
+  languageName: node
+  linkType: hard
+
+"hexo-word-counter@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "hexo-word-counter@npm:0.1.0"
+  dependencies:
+    cargo-cp-artifact: ^0.1
+    hexo-util: 2.7.0
+  checksum: 86635d8d9105fe6e92038bd28e9b234b9ad2e1e59ef8128b3391e2863df1e821dffd369607ccc20d9791b318c7dec47fd4633a22f3c5b56734dc4a9ff8157599
   languageName: node
   linkType: hard
 
@@ -1301,10 +1428,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"highlight.js@npm:^10.7.1":
+  version: 10.7.3
+  resolution: "highlight.js@npm:10.7.3"
+  checksum: defeafcd546b535d710d8efb8e650af9e3b369ef53e28c3dc7893eacfe263200bba4c5fcf43524ae66d5c0c296b1af0870523ceae3e3104d24b7abf6374a4fea
+  languageName: node
+  linkType: hard
+
 "highlight.js@npm:^11.0.1, highlight.js@npm:^11.6.0":
   version: 11.8.0
   resolution: "highlight.js@npm:11.8.0"
   checksum: d2578a57aee7315946ff19379053fd0a28b127baabf7617ab1d28d62cdc4eaf3d75053569cb8479a5afdc7a68f1ba9a6c1d612d8ae399b4b9aa43093b4fb6831
+  languageName: node
+  linkType: hard
+
+"highlight.js@npm:^9.13.1":
+  version: 9.18.5
+  resolution: "highlight.js@npm:9.18.5"
+  checksum: a8afdb395869bba8a892dd8891b738d3bd48fe2e5b6843ec3181c93d73f52abf2cab863424caa631442a7bbafac222bafdab3f5a536a69aab9c60d4c1b7f8b77
   languageName: node
   linkType: hard
 
@@ -1314,6 +1455,30 @@ __metadata:
   dependencies:
     whatwg-encoding: ^2.0.0
   checksum: 8d806aa00487e279e5ccb573366a951a9f68f65c90298eac9c3a2b440a7ffe46615aff2995a2f61c6746c639234e6179a97e18ca5ccbbf93d3725ef2099a4502
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "htmlparser2@npm:4.1.0"
+  dependencies:
+    domelementtype: ^2.0.1
+    domhandler: ^3.0.0
+    domutils: ^2.0.0
+    entities: ^2.0.0
+  checksum: 615fcf34ae74775eba9d2c7c54034201645ac4146dfe2889cda21939aa77806ad3aee27963ae72c5c2da23ce7b0b99b2533e1d9f327b74821cc11f755cc5153f
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "htmlparser2@npm:6.1.0"
+  dependencies:
+    domelementtype: ^2.0.1
+    domhandler: ^4.0.0
+    domutils: ^2.5.2
+    entities: ^2.0.0
+  checksum: 81a7b3d9c3bb9acb568a02fc9b1b81ffbfa55eae7f1c41ae0bf840006d1dbf54cb3aa245b2553e2c94db674840a9f0fdad7027c9a9d01a062065314039058c4e
   languageName: node
   linkType: hard
 
@@ -1570,7 +1735,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.1.0":
+"js-yaml@npm:4.1.0, js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
   dependencies:
@@ -1688,6 +1853,25 @@ __metadata:
   bin:
     marked: bin/marked.js
   checksum: 0db6817893952c3ec710eb9ceafb8468bf5ae38cb0f92b7b083baa13d70b19774674be04db5b817681fa7c5c6a088f61300815e4dd75a59696f4716ad69f6260
+  languageName: node
+  linkType: hard
+
+"mathjax-full@npm:3.2.2":
+  version: 3.2.2
+  resolution: "mathjax-full@npm:3.2.2"
+  dependencies:
+    esm: ^3.2.25
+    mhchemparser: ^4.1.0
+    mj-context-menu: ^0.6.1
+    speech-rule-engine: ^4.0.6
+  checksum: 6fbccb9338e1fbf686202d924666d79ac9eb658157c1c8102ba018672188978c4cacfb1b6f65adf7d2d51dc79535ff3e32ba86b15e66d3011dda2ab99562d90d
+  languageName: node
+  linkType: hard
+
+"mhchemparser@npm:^4.1.0":
+  version: 4.2.1
+  resolution: "mhchemparser@npm:4.2.1"
+  checksum: 6dd7e3926befc74d26cf7b44b9e5ff7295e142bffc48a60bd225d5a30d525354afb70d23fc4fdb8f46178099ab98a66a57a6131dcb0f410264cfd2b9ad4af4b7
   languageName: node
   linkType: hard
 
@@ -1867,6 +2051,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mj-context-menu@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "mj-context-menu@npm:0.6.1"
+  checksum: 7a036026538662cac9619b760fade98681618c3ddf417cb36eddb7c28a937baf257c56fd0b6318738419e738ba01a00bcb3790b324885fd6edbae03fb0a2c986
+  languageName: node
+  linkType: hard
+
 "mkdirp@npm:^1.0.3":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
@@ -2013,7 +2204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nunjucks@npm:^3.2.3":
+"nunjucks@npm:^3.2.2, nunjucks@npm:^3.2.3":
   version: 3.2.4
   resolution: "nunjucks@npm:3.2.4"
   dependencies:
@@ -2191,6 +2382,13 @@ __metadata:
   version: 1.9.0
   resolution: "psl@npm:1.9.0"
   checksum: 20c4277f640c93d393130673f392618e9a8044c6c7bf61c53917a0fddb4952790f5f362c6c730a9c32b124813e173733f9895add8d26f566ed0ea0654b2e711d
+  languageName: node
+  linkType: hard
+
+"punycode.js@npm:^2.1.0":
+  version: 2.3.0
+  resolution: "punycode.js@npm:2.3.0"
+  checksum: 5ea3c4ed96f7a02269fc18bc542c05ba53ef7ba22ad36f82d731472409eb03561b88c328242b14f11511ea3725dc1ffd2f75eb8438d6d70f2ba3a158495271f5
   languageName: node
   linkType: hard
 
@@ -2460,6 +2658,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"speech-rule-engine@npm:^4.0.6":
+  version: 4.0.7
+  resolution: "speech-rule-engine@npm:4.0.7"
+  dependencies:
+    commander: 9.2.0
+    wicked-good-xpath: 1.3.0
+    xmldom-sre: 0.1.31
+  bin:
+    sre: bin/sre
+  checksum: e5b8a5878be61d0344d5e9e0327e6bdf25a23de8fb66bd1898719d52b5f12f42b7e11a3387b8f293420c5eaab57b3ed9099be0adcc2132177301e81134612f38
+  languageName: node
+  linkType: hard
+
 "sprintf-js@npm:^1.0.3":
   version: 1.1.3
   resolution: "sprintf-js@npm:1.1.3"
@@ -2545,6 +2756,13 @@ __metadata:
   dependencies:
     min-indent: ^1.0.0
   checksum: 18f045d57d9d0d90cd16f72b2313d6364fd2cb4bf85b9f593523ad431c8720011a4d5f08b6591c9d580f446e78855c5334a30fb91aa1560f5d9f95ed1b4a0530
+  languageName: node
+  linkType: hard
+
+"striptags@npm:^3.1.1":
+  version: 3.2.0
+  resolution: "striptags@npm:3.2.0"
+  checksum: 1b1f127ab46394665bd4f4dc3dc10f5f98c012cbdea93a68b10d78693671e98efc9ae7609f546af997ae0a02b81a5c9b7b916fa119482c31741406cdabaebf3b
   languageName: node
   linkType: hard
 
@@ -2808,6 +3026,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"wicked-good-xpath@npm:1.3.0":
+  version: 1.3.0
+  resolution: "wicked-good-xpath@npm:1.3.0"
+  checksum: 1aa84bd57426aa07f95d7eca0b0410e841b8e7a35248c9404fa235eaf6a0932c811a96cbdc763c3df18ab76c7644fd8e807d8f185146154d3fc6baf554dcc7e3
+  languageName: node
+  linkType: hard
+
 "wide-align@npm:^1.1.5":
   version: 1.1.5
   resolution: "wide-align@npm:1.1.5"
@@ -2872,6 +3097,13 @@ __metadata:
   version: 2.2.0
   resolution: "xmlchars@npm:2.2.0"
   checksum: 8c70ac94070ccca03f47a81fcce3b271bd1f37a591bf5424e787ae313fcb9c212f5f6786e1fa82076a2c632c0141552babcd85698c437506dfa6ae2d58723062
+  languageName: node
+  linkType: hard
+
+"xmldom-sre@npm:0.1.31":
+  version: 0.1.31
+  resolution: "xmldom-sre@npm:0.1.31"
+  checksum: dbd101600a64c1640b06fb2b5c626ce6d909fd40c966fcae84a2b64c708fe466630766173b5760e0275db2a2c542e048b14a2a6568feece2c315f0cd22a2f642
   languageName: node
   linkType: hard
 

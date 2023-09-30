@@ -5,9 +5,9 @@ name: Node.js
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,7 +26,6 @@ concurrency:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -35,17 +34,17 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npx yarn install
-    - run: npx yarn hexo g -f
-    - run: mv public _site
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npx yarn install
+      - run: npx yarn hexo generate --force
+      - run: mv public _site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
 
     # Deployment job
   deploy:

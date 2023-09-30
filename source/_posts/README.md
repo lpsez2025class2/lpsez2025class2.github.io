@@ -29,5 +29,6 @@ ursusfeline07@gmail.com
  - [x] 测试页面
 
  - [x] 使用主题HexoNexT改善网页外观：[https://theme-next.js.org/](https://theme-next.js.org/)
+ - [ ] 自动化生成
 
  - [ ] 编写文章

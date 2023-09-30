@@ -28,3 +28,4 @@ jobs:
         cache: 'npm'
     - run: npx yarn install
     - run: npx yarn hexo g -f
+    - run: git push

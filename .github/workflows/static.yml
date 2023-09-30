@@ -42,7 +42,11 @@ jobs:
         cache: 'npm'
     - run: npx yarn install
     - run: npx yarn hexo g -f
-    - run: tar -cvf public.tar public/
+    - name: Fix permissions
+      run: |
+        chmod -c -R +rX "public/" | while read line; do
+        echo "::warning title=Invalid file permissions automatically fixed::$line"
+        done
     - run: ls -la
   # Single deploy job since we're just deploying
     - name: Checkout
@@ -53,7 +57,7 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
           # Upload entire repository
-        path: './public.tar'
+        path: './public/'
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
